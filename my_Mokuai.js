@@ -15,6 +15,6 @@ function padZero(n){
 }
 
 module.exports = {
-    dataFormat
+    dataFormat:dataFormat
 }
 
