@@ -1,9 +1,8 @@
-const my_Mokuai = require('./my_Mokuai')
-const moment = require('moment')
+const fs = require('fs')
+const path = require('path')
+const http = require('http')
+const utils = require('./utils.js')
 
-console.log(moment().format('YYYY-MM-HH hh:mm:ss'))
-
-
-
-
+const arr = utils.arraySum([5,1,3,6,8])
+console.log(arr)
 

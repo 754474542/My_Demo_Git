@@ -50,4 +50,19 @@ function resolveindex(html_str) {
 
 }
 
+//
+// const fs = require('fs')
+// const path = require('path')
+//
+// fs.readFile(path.join(__dirname,'没改动的','index.html'),'utf-8',(err, data) => {
+//     if(err)return console.log(err)
+//     const str = data.replace(/[\r\n]/g,'')
+//     fs.writeFile(path.join(__dirname,'没改动的','yihang.html'),str,'utf-8',err=>{
+//         return console.log(err)
+//     })
+//
+// })
+
+
+
 
