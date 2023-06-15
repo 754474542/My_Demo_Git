@@ -1,8 +1,6 @@
-const fs = require('fs')
-const path = require('path')
-const http = require('http')
-const utils = require('./utils.js')
+// const fs = require('fs')
+// const path = require('path')
+// const http = require('http')
+const utils = require('./utils')
 
-const arr = utils.arraySum([5,1,3,6,8])
-console.log(arr)
-
+console.log(utils.getArraySum([7,5,8,6,3,2,1,4,4]))

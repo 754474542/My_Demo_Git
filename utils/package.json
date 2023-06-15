@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "version": "1.0.0",
+  "name": "cs_utils",
+  "description": "这是一个自定义的utils包，功能是数组和字符串的常用方法",
+  "author": "yijia_hu",
+  "license": "MIT"
+}
+
+
+
